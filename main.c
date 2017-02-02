@@ -1,13 +1,3 @@
-# Purposes
-
-* (1) When a guest come in the store, the robot says “Welcome”.
-
-* (2) The robot can count the number of guests, and show the number with LED display device, like Digital tube.
-
-* (3)The system should work steadily and reliably with an error less than 2 people.
-
-
-```c
 #include <reg52.h>
 /*
 * -------------------------------------------
@@ -185,4 +175,3 @@ void main()
         // sleep();
     }  
 }
-```
